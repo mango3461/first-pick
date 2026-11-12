@@ -1,0 +1,26 @@
+{
+  "name": "first-pick",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "한국어 구매 입문 가이드와 출처 기반 키보드 선택 도구",
+  "engines": { "node": ">=22.14.0" },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "tsc --noEmit",
+    "test": "node --test tests/*.test.js",
+    "pretest:e2e": "npm run build",
+    "test:e2e": "playwright test",
+    "data:audit": "node scripts/audit-data.js",
+    "data:links": "node scripts/check-links.js",
+    "security:scan": "node scripts/scan-secrets.js"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.65.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.8"
+  }
+}
