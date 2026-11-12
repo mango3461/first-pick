@@ -121,6 +121,7 @@ scripts/                 출처 감사·링크 점검·비밀 패턴 검사
 - [검증 결과와 제한](docs/QA.md)
 - [실제 사용자 검증 계획](docs/VALIDATION.md)
 - [현재 상태와 다음 작업](docs/STATUS.md)
+- [최종 인수인계 보고](docs/DELIVERY.md)
 - [작업 지침](AGENTS.md)
 
 공개 저장소: `mango3461/first-pick`, 브랜치: `main`. 서비스는 미배포 상태입니다.
